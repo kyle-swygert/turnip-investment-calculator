@@ -1,0 +1,20 @@
+﻿<Window x:Class="TurnipCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TurnipCalculator"
+        mc:Ignorable="d"
+        Title="Turnip Investment Calculator" Height="295.104" Width="396.008">
+    <Grid>
+        <Label Content="Turnip Purchase Price" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label Content="Turnip Selling Price" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label Content="Number of Turnips Bought" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="154"/>
+        <TextBox Name="turnipsBoughtTextBox" HorizontalAlignment="Left" Height="23" Margin="169,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_2"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="294,10,0,0" VerticalAlignment="Top" Width="84" Height="81" Click="Button_Click"/>
+        <TextBox Name="sellingTextBox" HorizontalAlignment="Left" Height="23" Margin="169,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox Name="purchaseTextBox" HorizontalAlignment="Left" Height="23" Margin="169,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name="resultsTextBox" HorizontalAlignment="Left" Height="159" Margin="10,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged_3"/>
+
+    </Grid>
+</Window>
