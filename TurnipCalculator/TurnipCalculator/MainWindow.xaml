@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TurnipCalculator"
         mc:Ignorable="d"
-        Title="Turnip Investment Calculator" Height="295.104" Width="396.008">
+        Title="Turnip Investment Calculator" Height="300" Width="400"
+        MinHeight="300" MaxHeight="300"
+        MinWidth="400" MaxWidth="400">
     <Grid>
         <Label Content="Turnip Purchase Price" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="154"/>
         <Label Content="Turnip Selling Price" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="154"/>
