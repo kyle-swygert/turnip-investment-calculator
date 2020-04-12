@@ -5,18 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TurnipCalculator"
         mc:Ignorable="d"
-        Title="Turnip Investment Calculator" Height="300" Width="400"
-        MinHeight="300" MaxHeight="300"
-        MinWidth="400" MaxWidth="400">
+        Title="Turnip Investment Calculator" Height="325" Width="405"
+        MinHeight="330" MaxHeight="330" 
+        MinWidth="408" MaxWidth="408">
     <Grid>
-        <Label Content="Turnip Purchase Price" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="154"/>
-        <Label Content="Turnip Selling Price" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="154"/>
-        <Label Content="Number of Turnips Bought" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="154"/>
-        <TextBox Name="turnipsBoughtTextBox" HorizontalAlignment="Left" Height="23" Margin="169,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_2"/>
-        <Button Content="Calculate" HorizontalAlignment="Left" Margin="294,10,0,0" VerticalAlignment="Top" Width="84" Height="81" Click="Button_Click"/>
-        <TextBox Name="sellingTextBox" HorizontalAlignment="Left" Height="23" Margin="169,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
-        <TextBox Name="purchaseTextBox" HorizontalAlignment="Left" Height="23" Margin="169,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <TextBox Name="resultsTextBox" HorizontalAlignment="Left" Height="159" Margin="10,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="368" TextChanged="TextBox_TextChanged_3"/>
+        <Label Content="Turnip Purchase Price" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label Content="Turnip Selling Price" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label Content="Number of Turnips Bought" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Width="154"/>
+        <TextBox Name="turnipsBoughtTextBox" HorizontalAlignment="Left" Height="23" Margin="169,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_2"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="304,36,0,0" VerticalAlignment="Top" Width="80" Height="80" Click="Button_Click"/>
+        <TextBox Name="sellingTextBox" HorizontalAlignment="Left" Height="23" Margin="169,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox Name="purchaseTextBox" HorizontalAlignment="Left" Height="23" Margin="169,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name="resultsTextBox" HorizontalAlignment="Left" Height="163" Margin="10,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="374" TextChanged="TextBox_TextChanged_3"/>
+        <DockPanel HorizontalAlignment="Left" Height="30" LastChildFill="False" VerticalAlignment="Top" Width="394" Margin="0,0,-0.4,0">
+            <ToolBarTray Height="30" VerticalAlignment="Top" Width="109">
+                <ToolBar HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="102" Margin="0,0,-78,-26.2">
+                    <Button Content="GitHub" VerticalAlignment="Stretch" Width="75" Click="Button_Click_1" Margin="0,0,0,5"/>
+                </ToolBar>
+            </ToolBarTray>
+        </DockPanel>
 
     </Grid>
 </Window>

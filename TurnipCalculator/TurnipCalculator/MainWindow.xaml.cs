@@ -79,5 +79,11 @@ namespace TurnipCalculator
         {
             // this is the results textbox for the application.
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            // when the button is clicked, go to the gitHub website for the project. 
+            System.Diagnostics.Process.Start("https://github.com/kyle-swygert/turnip-investment-calculator");
+        }
     }
 }
